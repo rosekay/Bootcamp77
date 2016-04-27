@@ -54,4 +54,5 @@ print hello_again(name='joe', age=98)
 
 
 
- 
+ for person in other_people:
+ 	hello_again

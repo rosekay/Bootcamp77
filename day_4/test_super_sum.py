@@ -16,9 +16,17 @@ test case for super sum.
 		#test sum of integers
 		# super_sum(1,2,3) ==> 6
 		self.assertEqual(super_sum(1, 2, 3), 6)	
+		
+
+		self.assertEqual(super_sum(-1, 1,), 0)	
 
 		self.assertNotEqual(super_sum(10, 20, 30), 100)
-		
+
 	def test_sum_of_items_in_one_list(self):
 		#test sum of items in a single list
-		self.assertEqual(super_sum([1, 2, 3]),6)	
+		self.assertEqual(super_sum([1, 2, 3]),6)
+	
+	def test_string_input_returns(self):
+		#test sum string returns 0
+		self.assertEqual(super_sum(), 0)
+	

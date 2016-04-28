@@ -4,9 +4,9 @@ a = [10, 40, -9, 45, 60, 89]
 """for i in a:
 	"""	#print if:
 
-print in reverse
+#print in reverse
 
-i  = len(a):
+i  = len(a)
 while i > 0:
 	print a[i - 1]
 	i -= 1
@@ -29,5 +29,12 @@ for x, y, z in c:
 	print 'x: {} y: {} z: {}'.format(x, y, z)
 
 for i in b :
-	print "x: {}, y:{}".formart(i[0], i[1])	
+	print 'x: {}, y:{}'.formart(i[0], i[1])	
+	
+
 	#assignment array f [(10, 20, 40), (10, 40),(4, 5,50)]
+
+
+f = [(10, 20, 40), (10, 40), (4, 5, 50)]
+for i in f:
+	 print 'x: {}, y: {}, z: {}'.format(i[0], i[1], i[])

@@ -10,7 +10,3 @@ class Kenyan(Person):
 		return "No"	
 
 #for now
-k = Kenyan('miguna', 40)
-k.probe(20)
-print "Is {} corrupt?{}".format(k.name, k.is_corrupt())
-print k.say_hello()

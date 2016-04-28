@@ -1,4 +1,5 @@
 from person import Person
+from kenyan import Kenyan
 #pep8
 #instance vs class variables vs.
 #class methods
@@ -25,4 +26,12 @@ print p.age
 print p2.people_count
 print b
 print p.say_hello()
-print 
+
+k = Kenyan('miguna', 40)
+k.probe(20)
+print "Is {} corrupt?{}".format(k.name, k.is_corrupt())
+print k.say_hello()
+
+print p.corrupt
+print k.corrupt
+

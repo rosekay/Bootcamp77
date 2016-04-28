@@ -26,6 +26,9 @@ print data_type(True)
 print data_type(45)
 print data_type(' s')
 
+'''def word_count(x):
+	x = str("olly olly in come for free")
+	'''
 
 
 

@@ -7,7 +7,7 @@ def super_sum(*args):
 def hello_again(name, age):
 	return "I am {} and {} years old".format(name,age)
 
-def max_min(A):
+def max_min(A, *args):
 	'''
 		returns max value - min value
 		eg [10, 20, -5, 6, 50, 8]
@@ -21,3 +21,5 @@ def max_min(A):
 			min_ = i
 	return max_ - min_			
 			
+print max_min(10, 30)
+

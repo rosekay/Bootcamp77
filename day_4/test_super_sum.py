@@ -7,7 +7,10 @@ class SuperSumTestCase(TestCase):
 	'''
 test case for super sum.
 	'''
-
+	def setUp(self):
+		pass
+	def tearDown(self):
+		pass	
 	def test_empty_input(self):
 		#test empty input
 		self.assertEqual(super_sum(), 0)
@@ -28,5 +31,5 @@ test case for super sum.
 	
 	def test_string_input_returns(self):
 		#test sum string returns 0
-		self.assertEqual(super_sum(), 0)
+		self.assertEqual(super_sum("string", 1, 4), 0)
 	
